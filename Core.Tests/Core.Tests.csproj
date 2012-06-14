@@ -56,10 +56,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DummyTest.cs" />
+    <Compile Include="IncomingReccomandationEngineTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RankEngineTests.cs" />
+    <Compile Include="SimpleFormatterTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{AD9B72A3-A13E-4B34-8335-95DE106E9ACD}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DomainModels\DomainModels.csproj">
+      <Project>{3BD8BC5E-781A-4FD8-8401-187B80D62DA1}</Project>
+      <Name>DomainModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
