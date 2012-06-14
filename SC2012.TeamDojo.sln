@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModels", "DomainModel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTestOne", "AcceptanceTestOne\AcceptanceTestOne.csproj", "{F27AF6AC-057E-4300-B406-97A65EA18427}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlParsing", "XmlParsing\XmlParsing.csproj", "{68DD1251-56D0-4E12-BA5D-48E676D77D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlParsing.Tests", "XmlParsing.Tests\XmlParsing.Tests.csproj", "{04D46021-D0AC-4E59-897E-FAC59CEDC0A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,14 @@ Global
 		{F27AF6AC-057E-4300-B406-97A65EA18427}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F27AF6AC-057E-4300-B406-97A65EA18427}.Release|x86.ActiveCfg = Release|x86
 		{F27AF6AC-057E-4300-B406-97A65EA18427}.Release|x86.Build.0 = Release|x86
+		{68DD1251-56D0-4E12-BA5D-48E676D77D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DD1251-56D0-4E12-BA5D-48E676D77D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DD1251-56D0-4E12-BA5D-48E676D77D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DD1251-56D0-4E12-BA5D-48E676D77D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D46021-D0AC-4E59-897E-FAC59CEDC0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D46021-D0AC-4E59-897E-FAC59CEDC0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D46021-D0AC-4E59-897E-FAC59CEDC0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D46021-D0AC-4E59-897E-FAC59CEDC0A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
