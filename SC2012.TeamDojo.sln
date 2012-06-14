@@ -6,8 +6,23 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core.Tests\Core.Tests.csproj", "{A6C21FAC-DFDB-469C-A676-D50145104F35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModels", "DomainModels\DomainModels.csproj", "{3BD8BC5E-781A-4FD8-8401-187B80D62DA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegreesOfSeparation", "DegreesOfSeparation\DegreesOfSeparation.csproj", "{99FBE3B9-7958-422B-A38B-95CC7CD418FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegreesOfSeparationTests", "DegreesOfSeparationTests\DegreesOfSeparationTests.csproj", "{19D3B2B1-2542-4A48-845D-79D4342BEDAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F43DE557-C1EB-42D2-8711-9427B250FD0B}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SC2012.TeamDojo.vsmdi = SC2012.TeamDojo.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeCoreObjects", "FakeCoreObjects\FakeCoreObjects.csproj", "{BB630D34-D410-480F-B903-94A18336A967}"
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SC2012.TeamDojo.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -25,6 +40,18 @@ Global
 		{3BD8BC5E-781A-4FD8-8401-187B80D62DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BD8BC5E-781A-4FD8-8401-187B80D62DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BD8BC5E-781A-4FD8-8401-187B80D62DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FBE3B9-7958-422B-A38B-95CC7CD418FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FBE3B9-7958-422B-A38B-95CC7CD418FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FBE3B9-7958-422B-A38B-95CC7CD418FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FBE3B9-7958-422B-A38B-95CC7CD418FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D3B2B1-2542-4A48-845D-79D4342BEDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D3B2B1-2542-4A48-845D-79D4342BEDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D3B2B1-2542-4A48-845D-79D4342BEDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D3B2B1-2542-4A48-845D-79D4342BEDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB630D34-D410-480F-B903-94A18336A967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB630D34-D410-480F-B903-94A18336A967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB630D34-D410-480F-B903-94A18336A967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB630D34-D410-480F-B903-94A18336A967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
