@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModels", "DomainModel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTestOne", "AcceptanceTestOne\AcceptanceTestOne.csproj", "{F27AF6AC-057E-4300-B406-97A65EA18427}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTestsTwo", "AcceptanceTestsTwo\AcceptanceTestsTwo.csproj", "{B9BC8BBB-8A16-4C97-A194-DFECB520766D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,16 @@ Global
 		{F27AF6AC-057E-4300-B406-97A65EA18427}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F27AF6AC-057E-4300-B406-97A65EA18427}.Release|x86.ActiveCfg = Release|x86
 		{F27AF6AC-057E-4300-B406-97A65EA18427}.Release|x86.Build.0 = Release|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Debug|x86.ActiveCfg = Debug|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Debug|x86.Build.0 = Debug|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Release|Any CPU.ActiveCfg = Release|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Release|x86.ActiveCfg = Release|x86
+		{B9BC8BBB-8A16-4C97-A194-DFECB520766D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
