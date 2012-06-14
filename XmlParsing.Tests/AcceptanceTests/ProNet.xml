@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Network>
+  <Programmer name='Bill'>
+    <Recommendations>
+      <Recommendation>Jason</Recommendation>
+      <Recommendation>Jill</Recommendation>
+      <Recommendation>Nick</Recommendation>
+      <Recommendation>Stu</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>Ruby</Skill>
+      <Skill>Perl</Skill>
+      <Skill>PHP</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Dave'>
+    <Recommendations>
+      <Recommendation>Jill</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>Java</Skill>
+      <Skill>C#</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Ed'>
+    <Recommendations>
+      <Recommendation>Liz</Recommendation>
+      <Recommendation>Rick</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>C++</Skill>
+      <Skill>Python</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Frank'>
+    <Recommendations>
+      <Recommendation>Nick</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>Perl</Skill>
+      <Skill>Ruby</Skill>
+      <Skill>C++</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Jason'>
+    <Recommendations>
+      <Recommendation>Dave</Recommendation>
+      <Recommendation>Liz</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>Java</Skill>
+      <Skill>Ruby</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Jill'>
+    <Recommendations>
+      <Recommendation>Nick</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>C++</Skill>
+      <Skill>Ruby</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Liz'>
+    <Recommendations>
+      <Recommendation>Bill</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>C#</Skill>
+      <Skill>C++</Skill>
+      <Skill>Java</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Nick'>
+    <Recommendations>
+      <Recommendation>Stu</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>C#</Skill>
+      <Skill>Java</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Rick'>
+    <Recommendations>
+      <Recommendation>Ed</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>Java</Skill>
+      <Skill>PHP</Skill>
+    </Skills>
+  </Programmer>
+  <Programmer name='Stu'>
+    <Recommendations>
+      <Recommendation>Frank</Recommendation>
+    </Recommendations>
+    <Skills>
+      <Skill>C++</Skill>
+      <Skill>Perl</Skill>
+    </Skills>
+  </Programmer>
+</Network>
