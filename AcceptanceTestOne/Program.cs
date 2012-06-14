@@ -25,6 +25,9 @@ namespace AcceptanceTestOne
                                               ben
                                   };
 
+            Console.WriteLine("{0,-20}{1,-20}{2,-20}", "Programmer", "Skills", "Recommends");
+            Console.WriteLine("{0,-20}{1,-20}{2,-20}", "----------", "------", "----------");
+
             foreach (var programmer in programmers.OrderBy(p => p.Name))
             {
                 var skills = string.Join(", ", programmer.Skills);
