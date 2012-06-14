@@ -58,6 +58,9 @@
     <Content Include="AcceptanceTests\SingleEmptyProgrammer.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="AcceptanceTests\SingleProgrammerWithSingleRecommendation.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DomainModels\DomainModels.csproj">
