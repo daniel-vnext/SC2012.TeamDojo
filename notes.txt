@@ -1,0 +1,10 @@
+http://172.31.31.25:3000
+
+http://www.codemanship.co.uk/teamdojo
+
+teamcity
+	http://172.31.16.147:8080
+	teamcity
+	teamcity
+github
+	https://github.com/osw/SC2012.TeamDojo/commits/master
