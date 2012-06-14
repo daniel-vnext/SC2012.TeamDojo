@@ -10,7 +10,8 @@ namespace Core
     {
         public const string header = 
 @"Programmer          Skills              Recommends
-----------          ------              ----------\r\n";
+----------          ------              ----------
+";
             
 
         public string Format(IEnumerable<Programmer> programmers)
