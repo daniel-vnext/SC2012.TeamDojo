@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GraphLibrary">
+      <HintPath>..\packages\GraphLibrary\GraphLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -45,17 +48,19 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DirectedLinkTests.cs" />
+    <Compile Include="GraphBuilderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FinderTests.cs" />
+    <Compile Include="SeparationFinderTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DegreesOfSeparation\DegreesOfSeparation.csproj">
       <Project>{99FBE3B9-7958-422B-A38B-95CC7CD418FA}</Project>
       <Name>DegreesOfSeparation</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FakeCoreObjects\FakeCoreObjects.csproj">
-      <Project>{BB630D34-D410-480F-B903-94A18336A967}</Project>
-      <Name>FakeCoreObjects</Name>
+    <ProjectReference Include="..\DomainModels\DomainModels.csproj">
+      <Project>{3BD8BC5E-781A-4FD8-8401-187B80D62DA1}</Project>
+      <Name>DomainModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -43,13 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DirectedLink.cs" />
+    <Compile Include="SeparationFinder.cs" />
+    <Compile Include="GraphBuilder.cs" />
+    <Compile Include="LinkGraph.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FakeCoreObjects\FakeCoreObjects.csproj">
-      <Project>{BB630D34-D410-480F-B903-94A18336A967}</Project>
-      <Name>FakeCoreObjects</Name>
+    <ProjectReference Include="..\DomainModels\DomainModels.csproj">
+      <Project>{3BD8BC5E-781A-4FD8-8401-187B80D62DA1}</Project>
+      <Name>DomainModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
