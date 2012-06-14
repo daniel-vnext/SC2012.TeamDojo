@@ -56,7 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DummyTest.cs" />
+    <Compile Include="IncomingReccomandationEngineTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RankEngineTests.cs" />
     <Compile Include="SimpleFormatterTest.cs" />
   </ItemGroup>
   <ItemGroup>
