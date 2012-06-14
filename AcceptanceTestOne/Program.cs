@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using Core;
 using DomainModels;
 
 namespace AcceptanceTestOne
@@ -19,21 +21,17 @@ namespace AcceptanceTestOne
 
             ben.Recommendations.Add(adrian);
 
+
             var programmers = new List<Programmer>()
                                   {
                                               adrian,
                                               ben
                                   };
 
-            Console.WriteLine("{0,-20}{1,-20}{2,-20}", "Programmer", "Skills", "Recommends");
-            Console.WriteLine("{0,-20}{1,-20}{2,-20}", "----------", "------", "----------");
+            var formatter = new SimpleFormatter();
+            var report = formatter.Format(programmers);
 
-            foreach (var programmer in programmers.OrderBy(p => p.Name))
-            {
-                var skills = string.Join(", ", programmer.Skills);
-                var recommendations = string.Join(", ", programmer.Recommendations.Select(p => p.Name));
-                Console.WriteLine("{0,-20}{1,-20}{2,-20}", programmer.Name, skills, recommendations);
-            }
+            Console.Write(report);
 
             Console.ReadLine();
         }
