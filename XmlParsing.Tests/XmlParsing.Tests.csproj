@@ -43,14 +43,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcceptanceTests\Class1.cs" />
+    <Compile Include="AcceptanceTests\XmlParserShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTests\Class1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="UnitTests\" />
+    <Content Include="AcceptanceTests\ProNet.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AcceptanceTests\SingleEmptyProgrammer.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DomainModels\DomainModels.csproj">
+      <Project>{3BD8BC5E-781A-4FD8-8401-187B80D62DA1}</Project>
+      <Name>DomainModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlParsing\XmlParsing.csproj">
+      <Project>{68DD1251-56D0-4E12-BA5D-48E676D77D29}</Project>
+      <Name>XmlParsing</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
