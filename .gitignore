@@ -3,6 +3,7 @@
 [Oo]bj
 _ReSharper.*/
 *.suo
+*.user
 
 # mstest test results
 TestResults
