@@ -12,7 +12,7 @@ namespace DomainModels
 
         public Programmer(string name)
         {
-            if (!string.IsNullOrWhiteSpace(name))
+            if (string.IsNullOrWhiteSpace(name))
             {
                 throw new ArgumentNullException("name");
             }
